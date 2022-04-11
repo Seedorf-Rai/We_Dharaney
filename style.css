@@ -229,9 +229,9 @@ box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6
 
 }
 .card{
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
     height: 57vh;
-    margin-left: 10px;
+    margin-left: 50px;
 }
 .rating{
     height: 20px;
@@ -319,6 +319,105 @@ box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6
   background-color: #298e46;
   box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
+.big-space-2{
+    height: 25vh;
+    /* background-color: red; */
+}
+.bgattached{
+    height: 40vh;
+    width: 100%;
+    background:  url(https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desc{
+    width: 50%;
+    margin-left: 40px;
+}
+.desc h1{
+    color: #9be2af;
+}
+.desc h6{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.5px;
+}
+.events-box{
+    width: 70%;
+    height: 80vh;
+    /* background-color: red; */
+    margin-left: 160px;
+}
+.upcoming{
+    display: flex;
+    justify-content: space-between;
+}
+.event-card{
+    width: 600px;
+    height: 30vh;
+    border: none;
+}
+.col-md-5 a{
+    /* text-decoration: none; */
+    color: green;
+}
+.event-img{
+    margin-top: 30px;
+    height: 130px;
+}
+.big-space-3{
+    height: 35vh;
+}
+.lost-box{
+    width: 70%;
+    height: 50vh;
+    /* background-color: red; */
+    margin-left: 160px;
+}
+.lost-card{
+    height: 47vh;
+}
+
+.lafsb{
+    width: 100%;
+    height: 4vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+.lost-and-found-slider{
+    margin-left: 30px;
+}
+.lafsb p{
+    color: #666666;
+}
+.lost-and-found-location{
+  margin-top: 7px;
+
+}
+.lost-and-found-location p{
+  color: #666666;
+  margin-top: 7px;
+}
+.lost-and-found-time{
+    margin-top: 7px;
+  
+  }
+  .lost-and-found-time a{
+      color: #2fbd57;
+  }
+.lost-and-found-time h6{
+    color: #666666;
+    margin-top: 5px;
+  }
+  .lost-and-found-img{
+      height: 200px !important;
+  }
 @media (max-width: 500px){
     body{
         overflow-x: hidden;
