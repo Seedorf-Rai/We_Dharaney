@@ -59,6 +59,7 @@ body{
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin-left: 70px;
   position: relative;
   left: 550px;
 }
@@ -358,7 +359,7 @@ box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6
     justify-content: space-between;
 }
 .event-card{
-    width: 600px;
+    width: 550px;
     height: 30vh;
     border: none;
 }
@@ -476,6 +477,124 @@ box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6
   .viewall-of-jobs{
       margin-right: 60px;
   }
+  .big-space-4{
+      width: 100%;
+      height: 9vh;
+      /* background-color: red; */
+  }
+  .blog{
+      width: 80%;
+      height: 60vh;
+      /* background-color: green; */
+      margin-left: 150px;
+  }
+  .blogs-card{
+      width: 100%;
+      height: 45vh;
+     /* background-color: blue; */
+     
+     position: relative;
+     right: 50px;
+  }
+  .space-card{
+      width: 2rem;
+  }
+  .blog-card-child{
+      border: none;
+     border-radius: 0 !important;
+      width: 200px;
+      height: 400px !important;
+     
+  }
+  .blog-para{
+      margin-top:10px;
+      color: #666666;
+  }
+  .blog-card-body{
+      margin-right: 50px;
+  }
+  .big-space-5{
+      width: 100%;
+      height: 27vh;
+      /* background-color: red; */
+  }
+  .subscribe{
+      width: 100%;
+      height: 33vh;
+      /* background-color: blue; */
+      background-image: url(https://images.pexels.com/photos/382177/pexels-photo-382177.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1), linear-gradient(rgba(91, 66, 150, 0.5),rgba(97, 110, 191, 0.5));
+      background-blend-mode: overlay;
+      background-position: top center ;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .subscribe-box{
+      height: 20vh;
+      width: 70%;
+      background-color: transparent;
+  }
+  .subscribe-box h1{
+      color: white;
+  }
+  .subscribe-child{
+      display: flex;
+      justify-content: space-between;
+  }
+  .subscribe-child-para h6{
+      color: white;
+      
+  }
+  input{
+      width: 300px;
+      height: 50px;
+  }
+  .button-38 {
+    width: 100px;
+    height: 40px;
+  background-color: #338D49;
+  border: 1px solid #338D49;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  /* padding-bottom: 20px; */
+  /* padding: 0 25px; */
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  }
+.join-btn{
+    text-decoration: none;
+}
+
+
+.button-37:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .button-37 {
+    padding: 10px 30px;
+  }
+}
+.big-space-6{
+    
+}
+
 @media (max-width: 500px){
     body{
         overflow-x: hidden;
