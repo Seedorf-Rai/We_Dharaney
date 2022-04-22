@@ -147,18 +147,39 @@ body{
 backdrop-filter: blur(10px);
 border: 1px solid rgba(223,236,242,0.25);
 box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+position: relative;
+transition: 0.2s;
 
+}
+.card-demo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.card-1:hover{
+    transform: translateY(-10px);
+}
+.card-demo h6{
+    color: #8f8a8a;
+    margin-bottom:10px;
 }
 .fa-solid{
     margin: 0 0;
     
 }
 .card-1-child{
-    margin-left: 50px;
+    margin-left: 45px;
     margin-top: 10px;
+    background-color: red;
 }
 .card-name{
     margin-left: -9px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .popular{
     color: #01010f;
@@ -170,8 +191,10 @@ box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6
     color: #666666;
 }
 .img-icon{
-    height: 50px;
+    height: 40px;
     width: 50px;
+    margin-bottom: 20px;
+    margin-left: 10px;
 }
 .card-name h6{
     color: #666666;
@@ -294,7 +317,63 @@ box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6
   vertical-align: middle;
   white-space: nowrap;
 }
+.photos-bigbox{
+  width: 80%;
+  height: 100vh;
+  /* background-color: red; */
+  margin-left: 160px;
+}
+.gallery-budasubba{
+    height: 290px;
+    width: 470px;
+}
+.gallery-ghantaghar{
+    width: 220px;
+    height: 250px ;
+    position: relative;
+    top: 280px;
+    left: -470px;
+}
+.gallery-dharanroad{
+    width: 220px;
+    height: 250px ;
+    position: relative;
+    top: 280px;
+    left: -460px;
+}
+.gallery-holi{
+    margin-top: 30px;
+    width: 250px;
+    height: 260px ;
+    position: relative;
+    top: -30px;
+    left: -440px;
+}
+.gallery-socialwork{
+    width: 250px;
+    height: 260px ;
+    position: relative;
+    top: -300px;
+    left: 745px;
 
+}
+.gallery-gurkhapark{
+    width: 532px;
+    height: 280px;
+    position: relative;
+    left: 230px;
+    top: -18px;
+}
+.gallery-socialwork2{
+    width: 200px;
+    height: 250px;
+    position: relative;
+    left: 240px;
+    top: -300px;
+}
+
+  
+  
 .button-3:focus:not(:focus-visible):not(.focus-visible) {
   box-shadow: none;
   outline: none;
@@ -608,7 +687,7 @@ box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6
 }
 .footer-space{
     width: 100%;
-    height: 40px;
+    height: 20px;
     /* background-color: yellow; */
 }
 .footer-location{
@@ -624,7 +703,7 @@ box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6
     color: #4e4e69;
 }
 .footer-menu-items{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .footer-menu-items-child{
     margin-bottom: 27px;
@@ -652,7 +731,7 @@ box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6
     width: 100%;
     height: 80px;
     /* background-color: yellow; */
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .end{
     width: 100%;
@@ -665,6 +744,7 @@ box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6
 .end p{
     color: #666666;
 }
+
 @media (max-width: 500px){
     body{
         overflow-x: hidden;
