@@ -441,7 +441,7 @@ transition: 0.2s;
     letter-spacing: 0.5px;
 }
 .events-box{
-    width: 70%;
+    width: 76%;
     height: 80vh;
     /* background-color: red; */
     margin-left: 160px;
@@ -451,9 +451,10 @@ transition: 0.2s;
     justify-content: space-between;
 }
 .event-card{
-    width: 550px;
+    width: 530px;
     height: 30vh;
     border: none;
+    margin-left: 5px;
 }
 .col-md-5 a{
     /* text-decoration: none; */
@@ -467,13 +468,14 @@ transition: 0.2s;
     height: 35vh;
 }
 .lost-box{
-    width: 70%;
+    width:77%;
     height: 50vh;
     /* background-color: red; */
     margin-left: 160px;
 }
 .lost-card{
     height: 47vh;
+    margin-right: 50px;
 }
 
 .lafsb{
@@ -484,7 +486,8 @@ transition: 0.2s;
     justify-content: space-between;
 }
 .lost-and-found-slider{
-    margin-left: 80px;
+    margin-top: 30px;
+    margin-left: 20px;
     
 }
 .lost-card{
@@ -521,6 +524,7 @@ transition: 0.2s;
     /* background-color: red; */
     margin-left: 150px;
   }
+ 
   .available-jobs-box-child{
       width: 100%;
       height: 8vh;
@@ -533,7 +537,7 @@ transition: 0.2s;
       width: 100%;
       /* background-color: #298e46; */
       position: relative;
-      right: 50px;
+      right: 0px;
   }
   .d-flex{
       justify-content:space-between;
@@ -553,11 +557,18 @@ transition: 0.2s;
       width: 100%;
       /* background-color: blue; */
   }
-  .news-card{
+  .suchanapati-link{
+      text-decoration: none;
+      color: #353836;
+  }
+  .suchanapati-link:hover{
+      color: #21ab4f;
+  }
+   .news-card{
       width: 100%;
       height: 23vh;
       /* background-color: pink; */
-      margin-bottom: 20px;
+      margin-bottom: 25px;
   }
   .news-heading{
       font-size: 25px;
