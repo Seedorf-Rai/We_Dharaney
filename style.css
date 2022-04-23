@@ -565,7 +565,7 @@ transition: 0.2s;
   .suchanapati-box-child{
       height: 79vh;
       width: 100%;
-      /* background-color: blue; */
+      background-color: blue;
   }
   .suchanapati-link{
       text-decoration: none;
@@ -783,6 +783,22 @@ transition: 0.2s;
     body{
         overflow-x: hidden;
     }
+    .connecting{
+        position: relative;
+        right: 50%;
+    }
+    .around{
+        position: relative;
+        right: 50%;
+    }
+    /* .fa-play{
+        position: relative;
+        right: 10%;
+    } */
+    .round-button{
+        position: relative;
+        right: 50%;
+    }
     .button-37{
         position: relative;
         left: 0px;
@@ -802,33 +818,45 @@ transition: 0.2s;
         width: 300px;
        position: relative;
        right: 220px;
+       display: none;
     }
     .buda{
       
             width: 340px;
+       display: none;
+
            
         
     }
     .buda-img{
         width: 300px;
+       display: none;
+
     }
     .clock{
         position: relative;
         left: 30px;
+       display: none;
+
     }
     .clock-child{
         position: relative;
         left: 10px;
     }
     .big-sapce{
-        height: 260vh;
+        height: 140vh;
     }
     .hotel-card{
         position: relative;
         right: 100px;
     }
+    .hotel-img{
+        width: 300px;
+        height: 200px;
+    }
     .slider{
-        margin-left: 25px;
+       position: relative;
+       left: -20px;
     }
     .hotel-card-body{
         height: 500px;
@@ -836,6 +864,141 @@ transition: 0.2s;
     .card{
         height: 700px;
     }
+    .bgattached{
+        margin-top: 150px;
+    }
+    .desc h6{
+        word-break: break-word;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        line-height: 16px; /* fallback */
+        max-height: 32px; /* fallback */
+        -webkit-line-clamp: 2; /* number of lines to show */
+        -webkit-box-orient: vertical;
+    }
+    .events-box{
+       position: relative;
+       right: 100px;
+       width: 76%;
+       height: 80vh;
+       /* background-color: red; */
+       margin-left: 160px;
+    }
+    .event-img{
+        margin-top: 30px;
+        height: 130px;
+        width: 200px;
+    }
+    .event-card{
+        width: 200px;
+        height: 30vh;
+        border: none;
+        margin-left: 5px;
+    }
+    .card-text{
+        position: relative;
+        top: -150px;
+        left: 220px;
+        word-break: break-word;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        line-height: 16px; /* fallback */
+        max-height: 32px; /* fallback */
+        -webkit-line-clamp: 1; /* number of lines to show */
+        -webkit-box-orient: vertical;
+    }
+    .lost-box{
+        /* background-color: red; */
+        width: 80%;
+        position: relative;
+        top: 630px;
+        left: -100px;
+    }
+    .lost-card{
+        height: 300px;
+    }
+    .photos-bigbox{
+        position: relative;
+        top: 700px;
+        right: 100px;
+    }
+    
+    .blog{
+        display: none;
+    }
+    
+    .gallery-budasubba{
+        width: 50%;
+        height: 110px;
+        position: relative;
+        top: -10px;
+
+    }
+    .gallery-falls{
+        position: relative;
+        top: -1450px;
+        left: 93px;
+        width: 100px;
+        height: 110px;
+    }
+    .gallery-socialwork2{
+        position: relative;
+        top: -1450px;
+        left: 300px;
+        width: 100px;
+        height: 110px; 
+    }
+    .gallery-gurkhapark{
+        position: relative;
+        top: -1050px;
+        left: -0px;
+        width: 400px;
+    }
+    /* .gallery-dharanroad{
+        display: none;
+    }
+    .gallery-holi{
+        display: none;
+    } */
+    .subscribe{
+        margin-top: 3000px;
+    }
+    .jobs{
+       position: relative;
+       top: 600px;
+       width: 90%;
+       height: 100vh;
+       /* background-color: red; */
+       margin-left: 60px;
+
+    }
+    .available-jobs-box-child{
+        width: 80%;
+        height: 8vh;
+        /* background-color: yellow; */
+        
+    }
+    .viewall-of-jobs{
+        position: absolute;
+        left: 300px;
+    }
+    .job-location{
+       display: none;
+    }
+    .suchanapati-box-child{
+        height: 79vh;
+        width: 100%;
+        background-color: white;
+        margin-top: 200px;
+        margin-right: 60px;
+    }
+    .suchanapati-header{
+        position: relative;
+        top: 200px;
+    }
+
 
    
   
