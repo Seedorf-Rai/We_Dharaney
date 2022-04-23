@@ -251,9 +251,13 @@ transition: 0.2s;
 }
 .hotel-card-body{
   height: 57vh;
-  width: 300px;
+  width: 400px;
   /* background: yellow; */
 
+}
+.hotel-img{
+    height: 300px;
+    width: 300px;
 }
 .card{
     /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
